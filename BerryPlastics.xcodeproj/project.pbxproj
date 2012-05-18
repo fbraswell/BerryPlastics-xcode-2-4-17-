@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B23C428615668DEB009C0F74 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23C428515668DEB009C0F74 /* Cocoa.framework */; };
+		B23C429015668DEB009C0F74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B23C428E15668DEB009C0F74 /* InfoPlist.strings */; };
+		B23C429215668DEB009C0F74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B23C429115668DEB009C0F74 /* main.m */; };
+		B23C429615668DEB009C0F74 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B23C429415668DEB009C0F74 /* Credits.rtf */; };
+		B23C429915668DEB009C0F74 /* BPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B23C429815668DEB009C0F74 /* BPAppDelegate.m */; };
+		B23C429C15668DEB009C0F74 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23C429A15668DEB009C0F74 /* MainMenu.xib */; };
+		B23C429F15668DEB009C0F74 /* BerryPlastics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B23C429D15668DEB009C0F74 /* BerryPlastics.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B23C428115668DEB009C0F74 /* BerryPlastics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BerryPlastics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23C428515668DEB009C0F74 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B23C428815668DEB009C0F74 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B23C428915668DEB009C0F74 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B23C428A15668DEB009C0F74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B23C428D15668DEB009C0F74 /* BerryPlastics-Info.plist */ = {isa = PBXFileReference; path = "BerryPlastics-Info.plist"; sourceTree = "<group>"; };
+		B23C428F15668DEB009C0F74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B23C429115668DEB009C0F74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B23C429315668DEB009C0F74 /* BerryPlastics-Prefix.pch */ = {isa = PBXFileReference; path = "BerryPlastics-Prefix.pch"; sourceTree = "<group>"; };
+		B23C429515668DEB009C0F74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B23C429715668DEB009C0F74 /* BPAppDelegate.h */ = {isa = PBXFileReference; path = BPAppDelegate.h; sourceTree = "<group>"; };
+		B23C429815668DEB009C0F74 /* BPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPAppDelegate.m; sourceTree = "<group>"; };
+		B23C429B15668DEB009C0F74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B23C429E15668DEB009C0F74 /* BerryPlastics.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BerryPlastics.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B23C427E15668DEB009C0F74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23C428615668DEB009C0F74 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B23C427615668DEB009C0F74 = {
+			isa = PBXGroup;
+			children = (
+				B23C428B15668DEB009C0F74 /* BerryPlastics */,
+				B23C428415668DEB009C0F74 /* Frameworks */,
+				B23C428215668DEB009C0F74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B23C428215668DEB009C0F74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B23C428115668DEB009C0F74 /* BerryPlastics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B23C428415668DEB009C0F74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B23C428515668DEB009C0F74 /* Cocoa.framework */,
+				B23C428715668DEB009C0F74 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B23C428715668DEB009C0F74 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B23C428815668DEB009C0F74 /* AppKit.framework */,
+				B23C428915668DEB009C0F74 /* CoreData.framework */,
+				B23C428A15668DEB009C0F74 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B23C428B15668DEB009C0F74 /* BerryPlastics */ = {
+			isa = PBXGroup;
+			children = (
+				B23C429715668DEB009C0F74 /* BPAppDelegate.h */,
+				B23C429815668DEB009C0F74 /* BPAppDelegate.m */,
+				B23C429A15668DEB009C0F74 /* MainMenu.xib */,
+				B23C429D15668DEB009C0F74 /* BerryPlastics.xcdatamodeld */,
+				B23C428C15668DEB009C0F74 /* Supporting Files */,
+			);
+			path = BerryPlastics;
+			sourceTree = "<group>";
+		};
+		B23C428C15668DEB009C0F74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B23C428D15668DEB009C0F74 /* BerryPlastics-Info.plist */,
+				B23C428E15668DEB009C0F74 /* InfoPlist.strings */,
+				B23C429115668DEB009C0F74 /* main.m */,
+				B23C429315668DEB009C0F74 /* BerryPlastics-Prefix.pch */,
+				B23C429415668DEB009C0F74 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B23C428015668DEB009C0F74 /* BerryPlastics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23C42A215668DEB009C0F74 /* Build configuration list for PBXNativeTarget "BerryPlastics" */;
+			buildPhases = (
+				B23C427D15668DEB009C0F74 /* Sources */,
+				B23C427E15668DEB009C0F74 /* Frameworks */,
+				B23C427F15668DEB009C0F74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BerryPlastics;
+			productName = BerryPlastics;
+			productReference = B23C428115668DEB009C0F74 /* BerryPlastics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B23C427815668DEB009C0F74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BP;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B23C427B15668DEB009C0F74 /* Build configuration list for PBXProject "BerryPlastics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B23C427615668DEB009C0F74;
+			productRefGroup = B23C428215668DEB009C0F74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B23C428015668DEB009C0F74 /* BerryPlastics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B23C427F15668DEB009C0F74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23C429015668DEB009C0F74 /* InfoPlist.strings in Resources */,
+				B23C429615668DEB009C0F74 /* Credits.rtf in Resources */,
+				B23C429C15668DEB009C0F74 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B23C427D15668DEB009C0F74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23C429215668DEB009C0F74 /* main.m in Sources */,
+				B23C429915668DEB009C0F74 /* BPAppDelegate.m in Sources */,
+				B23C429F15668DEB009C0F74 /* BerryPlastics.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B23C428E15668DEB009C0F74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B23C428F15668DEB009C0F74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B23C429415668DEB009C0F74 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B23C429515668DEB009C0F74 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B23C429A15668DEB009C0F74 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B23C429B15668DEB009C0F74 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B23C42A015668DEB009C0F74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B23C42A115668DEB009C0F74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B23C42A315668DEB009C0F74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BerryPlastics/BerryPlastics-Prefix.pch";
+				INFOPLIST_FILE = "BerryPlastics/BerryPlastics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B23C42A415668DEB009C0F74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BerryPlastics/BerryPlastics-Prefix.pch";
+				INFOPLIST_FILE = "BerryPlastics/BerryPlastics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B23C427B15668DEB009C0F74 /* Build configuration list for PBXProject "BerryPlastics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23C42A015668DEB009C0F74 /* Debug */,
+				B23C42A115668DEB009C0F74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23C42A215668DEB009C0F74 /* Build configuration list for PBXNativeTarget "BerryPlastics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23C42A315668DEB009C0F74 /* Debug */,
+				B23C42A415668DEB009C0F74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B23C429D15668DEB009C0F74 /* BerryPlastics.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B23C429E15668DEB009C0F74 /* BerryPlastics.xcdatamodel */,
+			);
+			currentVersion = B23C429E15668DEB009C0F74 /* BerryPlastics.xcdatamodel */;
+			path = BerryPlastics.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B23C427815668DEB009C0F74 /* Project object */;
+}
