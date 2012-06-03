@@ -14,6 +14,9 @@
 		B23C429915668DEB009C0F74 /* BPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B23C429815668DEB009C0F74 /* BPAppDelegate.m */; };
 		B23C429C15668DEB009C0F74 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23C429A15668DEB009C0F74 /* MainMenu.xib */; };
 		B23C429F15668DEB009C0F74 /* BerryPlastics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B23C429D15668DEB009C0F74 /* BerryPlastics.xcdatamodeld */; };
+		B23C42A715668E63009C0F74 /* BPperl.m in Sources */ = {isa = PBXBuildFile; fileRef = B23C42A615668E63009C0F74 /* BPperl.m */; };
+		B253B375156CD06C003317BB /* berryplastics.tiff in Resources */ = {isa = PBXBuildFile; fileRef = B253B374156CD06C003317BB /* berryplastics.tiff */; };
+		B2A5883E157BA96C00A3AA38 /* berryplastics.tiff in Resources */ = {isa = PBXBuildFile; fileRef = B2A5883D157BA96C00A3AA38 /* berryplastics.tiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,19 @@
 		B23C428815668DEB009C0F74 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		B23C428915668DEB009C0F74 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		B23C428A15668DEB009C0F74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		B23C428D15668DEB009C0F74 /* BerryPlastics-Info.plist */ = {isa = PBXFileReference; path = "BerryPlastics-Info.plist"; sourceTree = "<group>"; };
+		B23C428D15668DEB009C0F74 /* BerryPlastics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BerryPlastics-Info.plist"; sourceTree = "<group>"; };
 		B23C428F15668DEB009C0F74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B23C429115668DEB009C0F74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B23C429315668DEB009C0F74 /* BerryPlastics-Prefix.pch */ = {isa = PBXFileReference; path = "BerryPlastics-Prefix.pch"; sourceTree = "<group>"; };
+		B23C429315668DEB009C0F74 /* BerryPlastics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BerryPlastics-Prefix.pch"; sourceTree = "<group>"; };
 		B23C429515668DEB009C0F74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		B23C429715668DEB009C0F74 /* BPAppDelegate.h */ = {isa = PBXFileReference; path = BPAppDelegate.h; sourceTree = "<group>"; };
+		B23C429715668DEB009C0F74 /* BPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPAppDelegate.h; sourceTree = "<group>"; };
 		B23C429815668DEB009C0F74 /* BPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPAppDelegate.m; sourceTree = "<group>"; };
 		B23C429B15668DEB009C0F74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B23C429E15668DEB009C0F74 /* BerryPlastics.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BerryPlastics.xcdatamodel; sourceTree = "<group>"; };
+		B23C42A515668E63009C0F74 /* BPperl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPperl.h; sourceTree = "<group>"; };
+		B23C42A615668E63009C0F74 /* BPperl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPperl.m; sourceTree = "<group>"; };
+		B253B374156CD06C003317BB /* berryplastics.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = berryplastics.tiff; path = "../../../../../Business Folders/Berry Plastics/berryplastics.tiff"; sourceTree = "<group>"; };
+		B2A5883D157BA96C00A3AA38 /* berryplastics.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = berryplastics.tiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +55,7 @@
 		B23C427615668DEB009C0F74 = {
 			isa = PBXGroup;
 			children = (
+				B2A5883D157BA96C00A3AA38 /* berryplastics.tiff */,
 				B23C428B15668DEB009C0F74 /* BerryPlastics */,
 				B23C428415668DEB009C0F74 /* Frameworks */,
 				B23C428215668DEB009C0F74 /* Products */,
@@ -86,6 +94,8 @@
 			children = (
 				B23C429715668DEB009C0F74 /* BPAppDelegate.h */,
 				B23C429815668DEB009C0F74 /* BPAppDelegate.m */,
+				B23C42A515668E63009C0F74 /* BPperl.h */,
+				B23C42A615668E63009C0F74 /* BPperl.m */,
 				B23C429A15668DEB009C0F74 /* MainMenu.xib */,
 				B23C429D15668DEB009C0F74 /* BerryPlastics.xcdatamodeld */,
 				B23C428C15668DEB009C0F74 /* Supporting Files */,
@@ -97,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				B23C428D15668DEB009C0F74 /* BerryPlastics-Info.plist */,
+				B253B374156CD06C003317BB /* berryplastics.tiff */,
 				B23C428E15668DEB009C0F74 /* InfoPlist.strings */,
 				B23C429115668DEB009C0F74 /* main.m */,
 				B23C429315668DEB009C0F74 /* BerryPlastics-Prefix.pch */,
@@ -159,6 +170,8 @@
 				B23C429015668DEB009C0F74 /* InfoPlist.strings in Resources */,
 				B23C429615668DEB009C0F74 /* Credits.rtf in Resources */,
 				B23C429C15668DEB009C0F74 /* MainMenu.xib in Resources */,
+				B253B375156CD06C003317BB /* berryplastics.tiff in Resources */,
+				B2A5883E157BA96C00A3AA38 /* berryplastics.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +185,7 @@
 				B23C429215668DEB009C0F74 /* main.m in Sources */,
 				B23C429915668DEB009C0F74 /* BPAppDelegate.m in Sources */,
 				B23C429F15668DEB009C0F74 /* BerryPlastics.xcdatamodeld in Sources */,
+				B23C42A715668E63009C0F74 /* BPperl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +307,7 @@
 				B23C42A415668DEB009C0F74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

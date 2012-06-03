@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 
 @interface BPAppDelegate : NSObject <NSApplicationDelegate>
-
+@property (nonatomic, strong) NSString *myOutput;
 @property (assign) IBOutlet NSWindow *window;
 
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;

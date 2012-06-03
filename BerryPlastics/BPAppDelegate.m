@@ -9,7 +9,7 @@
 #import "BPAppDelegate.h"
 
 @implementation BPAppDelegate
-
+@synthesize myOutput = _myOutput;
 @synthesize window = _window;
 @synthesize persistentStoreCoordinator = __persistentStoreCoordinator;
 @synthesize managedObjectModel = __managedObjectModel;
