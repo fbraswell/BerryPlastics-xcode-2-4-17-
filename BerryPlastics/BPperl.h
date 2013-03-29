@@ -11,6 +11,16 @@
 @interface BPperl : NSObject
 {
     IBOutlet NSString *myOutput;
+    IBOutlet NSView *myView;
+//    NSString *path;
+    
 }
 @property (nonatomic, strong) IBOutlet NSString *myOutput;
+@property (nonatomic, strong) NSString *convertTable;
+@property (nonatomic, strong) NSString *parameterChart;
+@property (nonatomic, strong) NSString *ratios;
+@property (nonatomic, strong) NSString *path;
+
+- (void) runPerl: (NSArray *)paramArray;
+
 @end

@@ -16,6 +16,9 @@
 		B23C429F15668DEB009C0F74 /* BerryPlastics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B23C429D15668DEB009C0F74 /* BerryPlastics.xcdatamodeld */; };
 		B23C42A715668E63009C0F74 /* BPperl.m in Sources */ = {isa = PBXBuildFile; fileRef = B23C42A615668E63009C0F74 /* BPperl.m */; };
 		B253B375156CD06C003317BB /* berryplastics.tiff in Resources */ = {isa = PBXBuildFile; fileRef = B253B374156CD06C003317BB /* berryplastics.tiff */; };
+		B254BA0015967B5C00FB6F5D /* IGConfigurableDropZone.m in Sources */ = {isa = PBXBuildFile; fileRef = B254B9FF15967B5C00FB6F5D /* IGConfigurableDropZone.m */; };
+		B254BA0315967CB400FB6F5D /* IGDZBackground_Active.png in Resources */ = {isa = PBXBuildFile; fileRef = B254BA0115967CB400FB6F5D /* IGDZBackground_Active.png */; };
+		B254BA0415967CB400FB6F5D /* IGDZBackground_Idle.png in Resources */ = {isa = PBXBuildFile; fileRef = B254BA0215967CB400FB6F5D /* IGDZBackground_Idle.png */; };
 		B2A5883E157BA96C00A3AA38 /* berryplastics.tiff in Resources */ = {isa = PBXBuildFile; fileRef = B2A5883D157BA96C00A3AA38 /* berryplastics.tiff */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +40,10 @@
 		B23C42A515668E63009C0F74 /* BPperl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPperl.h; sourceTree = "<group>"; };
 		B23C42A615668E63009C0F74 /* BPperl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPperl.m; sourceTree = "<group>"; };
 		B253B374156CD06C003317BB /* berryplastics.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = berryplastics.tiff; path = "../../../../../Business Folders/Berry Plastics/berryplastics.tiff"; sourceTree = "<group>"; };
+		B254B9FE15967B5C00FB6F5D /* IGConfigurableDropZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGConfigurableDropZone.h; sourceTree = "<group>"; };
+		B254B9FF15967B5C00FB6F5D /* IGConfigurableDropZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGConfigurableDropZone.m; sourceTree = "<group>"; };
+		B254BA0115967CB400FB6F5D /* IGDZBackground_Active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IGDZBackground_Active.png; sourceTree = "<group>"; };
+		B254BA0215967CB400FB6F5D /* IGDZBackground_Idle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IGDZBackground_Idle.png; sourceTree = "<group>"; };
 		B2A5883D157BA96C00A3AA38 /* berryplastics.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = berryplastics.tiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +101,8 @@
 			children = (
 				B23C429715668DEB009C0F74 /* BPAppDelegate.h */,
 				B23C429815668DEB009C0F74 /* BPAppDelegate.m */,
+				B254B9FE15967B5C00FB6F5D /* IGConfigurableDropZone.h */,
+				B254B9FF15967B5C00FB6F5D /* IGConfigurableDropZone.m */,
 				B23C42A515668E63009C0F74 /* BPperl.h */,
 				B23C42A615668E63009C0F74 /* BPperl.m */,
 				B23C429A15668DEB009C0F74 /* MainMenu.xib */,
@@ -106,6 +115,8 @@
 		B23C428C15668DEB009C0F74 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B254BA0115967CB400FB6F5D /* IGDZBackground_Active.png */,
+				B254BA0215967CB400FB6F5D /* IGDZBackground_Idle.png */,
 				B23C428D15668DEB009C0F74 /* BerryPlastics-Info.plist */,
 				B253B374156CD06C003317BB /* berryplastics.tiff */,
 				B23C428E15668DEB009C0F74 /* InfoPlist.strings */,
@@ -143,7 +154,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = BP;
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = B23C427B15668DEB009C0F74 /* Build configuration list for PBXProject "BerryPlastics" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -172,6 +183,8 @@
 				B23C429C15668DEB009C0F74 /* MainMenu.xib in Resources */,
 				B253B375156CD06C003317BB /* berryplastics.tiff in Resources */,
 				B2A5883E157BA96C00A3AA38 /* berryplastics.tiff in Resources */,
+				B254BA0315967CB400FB6F5D /* IGDZBackground_Active.png in Resources */,
+				B254BA0415967CB400FB6F5D /* IGDZBackground_Idle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +199,7 @@
 				B23C429915668DEB009C0F74 /* BPAppDelegate.m in Sources */,
 				B23C429F15668DEB009C0F74 /* BerryPlastics.xcdatamodeld in Sources */,
 				B23C42A715668E63009C0F74 /* BPperl.m in Sources */,
+				B254BA0015967B5C00FB6F5D /* IGConfigurableDropZone.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +239,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -252,6 +270,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -269,6 +291,7 @@
 		B23C42A315668DEB009C0F74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BerryPlastics/BerryPlastics-Prefix.pch";
 				INFOPLIST_FILE = "BerryPlastics/BerryPlastics-Info.plist";
@@ -280,6 +303,7 @@
 		B23C42A415668DEB009C0F74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BerryPlastics/BerryPlastics-Prefix.pch";
 				INFOPLIST_FILE = "BerryPlastics/BerryPlastics-Info.plist";
