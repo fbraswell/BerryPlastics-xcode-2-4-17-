@@ -22,12 +22,24 @@
     if (self) 
     {
         // Initialization code here.
-//        NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+        NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+        paths = NSSearchPathForDirectoriesInDomains(NSApplicationDirectory, NSUserDomainMask, YES);
+        paths = NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory, NSUserDomainMask, YES);
+//        NSString *executableName =
+//            [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleExecutable"];
+//        NSString *currentUserHomeDirectory = NSHomeDirectory();
+//        NSString *meHomeDirectory = NSHomeDirectoryForUser(@"me");
+        NSString *bundlePath = [[NSBundle mainBundle ] bundlePath];
 //        NSString *documentDir = [paths objectAtIndex:0];
 //        NSString *path = [documentDir stringByAppendingPathComponent:
 //        @"Xcode Projects/BerryPlastics/runprog.pl"];
-        _path = [[NSString alloc] initWithFormat:@"%@",
-                          @"/Users/frankbraswell/Business Folders/Berry Plastics/test/runprog.pl"];
+//        _path = [[NSString alloc] initWithFormat:@"%@",
+//                          @"/Users/frankbraswell/Business Folders/Berry Plastics/test/runprog.pl"];
+//        _path = @"/Users/frankbraswell/Business Folders/Berry Plastics/test/runprog.pl";
+        
+        // the runprog.pl perl script should be placed alongside the BerryPlastics.app
+//        NSString *bundlePath;
+        _path = [[bundlePath stringByDeletingLastPathComponent] stringByAppendingPathComponent: @"runprog.pl"];
 //                          
         // Arguments
 //        _convertTable = @"/Users/frankbraswell/Business Folders/Berry Plastics/test/H153354/BERRY AND SUB BLUE convtbl.txt";
